@@ -50,7 +50,6 @@ int main() {
   std::vector<std::string> rrule;
   std::vector<std::string> rupdate;
 
-
   bool isEndRule = false;
   while (std::getline(f, line)) {
     if (line.empty()) {
